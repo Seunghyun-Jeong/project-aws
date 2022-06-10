@@ -36,7 +36,7 @@ env:
   ECR_REPOSITORY: project2           # set this to your Amazon ECR repository name
   ECS_SERVICE: project2-serv2                 # set this to your Amazon ECS service name
   ECS_CLUSTER: project2-clu2                 # set this to your Amazon ECS cluster name
-  ECS_TASK_DEFINITION: project2-task.json # set this to the path to your Amazon ECS task definition
+  ECS_TASK_DEFINITION: .aws/project2-task.json # set this to the path to your Amazon ECS task definition
                                                # file, e.g. .aws/task-definition.json
   CONTAINER_NAME: pj2           # set this to the name of the container in the
                                                # containerDefinitions section of your task definition
