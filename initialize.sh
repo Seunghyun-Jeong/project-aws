@@ -1,7 +1,7 @@
 #!/bin/sh
 
 #yaml -> html
-#npm install -g redoc-cli
+npm install -g redoc-cli
 redoc-cli bundle -o index.html openapi.yaml
 
 #project2 폴더 생성
