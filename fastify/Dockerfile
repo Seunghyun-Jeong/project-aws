@@ -1,4 +1,4 @@
-FROM node:18
+FROM --platform=amd64 node:18.3.0
 
 # 앱 디렉터리 생성
 WORKDIR /usr/src/app
