@@ -29,6 +29,7 @@ build/Release
 # Dependency directories
 node_modules
 jspm_packages
+mongodb-data
 
 # Optional npm cache directory
 .npm
@@ -56,5 +57,3 @@ profile-*
 profile*
 *clinic*
 *flamegraph*
-
-mongodb-data
